@@ -1,4 +1,5 @@
-package BCEditor.Package;
+package BCEditor.Package27;
+
 
 {$R *.res}
 {$R 'BCEditor.Package.dcr'}
@@ -29,12 +30,14 @@ package BCEditor.Package;
 {$DESCRIPTION 'BCEditor components'}
 {$IMPLICITBUILD ON}
 
+
 requires
   designide,
   rtl,
   vcl,
   dbrtl,
   vcldb;
+
 
 contains
   BCEditor.Package in 'BCEditor.Package.pas',
@@ -79,5 +82,6 @@ contains
   BCEditor.Types in '..\Source\BCEditor.Types.pas',
   BCEditor.Utils in '..\Source\BCEditor.Utils.pas',
   JsonDataObjects in '..\Source\JsonDataObjects.pas';
+
 
 end.
